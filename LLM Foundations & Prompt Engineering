@@ -1,0 +1,16 @@
+References Module 1.2:
+  LLM API Pricing Calculator | Compare 300+ AI Model Costs
+  Hugging Face — Summary of Tokenizers
+  PromptHub - The Difference Between System Messages and User Messages in Prompt Engineering 
+  Agenta — Top techniques to Manage Context Lengths in LLMs
+
+Summary Module 1.2:
+  •	Tokenisation is the process whereby text is broken down into smaller units, with the common approach being Byte Pair Encoding (BPE).
+  •	When working with LLMs, a few message roles come into play:
+    o	User – prompts from a human.
+    o	System – general instructions for the chatbot; shapes its behaviour/style.
+    o	Assistant – response from the LLM.
+  •	Context management is key due to the possibility of context being lost; there’s only so much information an LLM can hold (context window). Some of the strategies are:
+    o	Full History
+    o	Selective History – a fixed number (n) of texts is stored.
+    o	Summarisation – a full summary or a summary plus selective history.
