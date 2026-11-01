@@ -1,3 +1,5 @@
+# Module 1 – LLM Foundations & Prompt Engineering
+
 References Module 1.2:
   LLM API Pricing Calculator | Compare 300+ AI Model Costs
   Hugging Face — Summary of Tokenizers
