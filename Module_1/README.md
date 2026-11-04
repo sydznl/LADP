@@ -1,9 +1,14 @@
+<!-- 
+[MD Tips](https://commonmark.org/help/tutorial/) 
+<ins>***To be updated***</ins>
+-->
+
 # Module 1 – LLM Foundations & Prompt Engineering
 
 ## References Module 1.2:
-+ [LLM API Pricing](https://www.helicone.ai/llm-cost)
++ [Helicone — LLM API Pricing](https://www.helicone.ai/llm-cost)
 + [Hugging Face — Tokenizers](https://huggingface.co/docs/transformers/tokenizer_summary)
-+ [PromptHub - Prompt Engineering](https://www.prompthub.us/blog/the-difference-between-system-messages-and-user-messages-in-prompt-engineering)
++ [PromptHub — Prompt Engineering](https://www.prompthub.us/blog/the-difference-between-system-messages-and-user-messages-in-prompt-engineering)
 + [Agenta — Manage Context Lengths](https://agenta.ai/blog/top-6-techniques-to-manage-context-length-in-llms)
 
 ## Summary Module 1.2:
@@ -18,7 +23,8 @@
     + Summarisation – a full summary or a summary plus selective history.
 
 ## References Module 1.3:
-+ <ins>***To be updated***</ins>
++ [OpenAI — Prompt Engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
++ [Humanloop — Structured Outputs](https://humanloop.com/blog/structured-outputs)
 
 ## Summary Module 1.3
 + Prompt Engineering:
