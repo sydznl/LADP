@@ -1,3 +1,5 @@
+<!-- [MD Tips](https://commonmark.org/help/tutorial/) -->
+
 # Module 0 – Course Overview
 This is my personal documentation of AI Singapore’s LLM Application Developer Programme (LADP) Essentials. The summary within this document is all self-written unless otherwise stated and has undergone review by DeepSeek only to ensure factual correctness and to proofread where applicable.
 
