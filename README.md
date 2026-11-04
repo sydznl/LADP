@@ -8,13 +8,15 @@ The programme revolves around the low-code/no-code platform Flowise, with Claude
 ## Repository Structure
 Each module folder contains its own README.md, which details the summary of the module along with relevant materials.
 
-+	Module_1/ — Intro workflows (first chatbot and first agent) and prompt engineering demos (zero-shot, few-shot, chain-of-thought, prompt chaining)
-+	Module_2 / — RAG workflow demo; documents_for_rag/ contains sample source docs for ingestion
-+	Module_3 / — Agent workflows: triaging agent and report writing agent
-+	Module_4/
+***To be updated***
+
++	`Module_1/` — Intro workflows (first chatbot and first agent) and prompt engineering demos (zero-shot, few-shot, chain-of-thought, prompt chaining)
++	`Module_2/` — RAG workflow demo; documents_for_rag/ contains sample source docs for ingestion
++	`Module_3/` — Agent workflows: triaging agent and report writing agent
++	`Module_4/`
     +	Evaluations/ — notebook, CSV inputs, and .env.example
     +	Deployment/ — Streamlit app, static HTML embed, Docker files, Kubernetes configs, and a Cloud Run deployment guide
-+	Project/ — Phase 2 capstone project: scenario briefs, submission instructions, and a contributions_from_learners/ folder for learner submissions via Pull Request
++	`Project/` — Phase 2 capstone project: scenario briefs, submission instructions, and a `contributions_from_learners/` folder for learner submissions via Pull Request
 
 ## Course setup 
 +	Install [Node.js](https://nodejs.org/en/download) v22.23.4
