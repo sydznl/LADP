@@ -26,7 +26,15 @@
 + Structured Outputs — ***To be updated***
 + JSON Validation — ***To be updated***
 
-![Prompt Chaining](/Images/M1_Prompt_Chaining.jpg "Source: AISG")
+<!-- ![Prompt Chaining](/Images/M1_Prompt_Chaining.jpg "Source: AISG") -->
+
+| Approach | Single Prompt | Prompt Chaining |
+| :--- | :--- | :--- |
+| **Complexity** | One very long prompt | Multiple focused prompts |
+| **Accuracy** | May miss details | Higher accuracy per step |
+| **Debugging** | Hard to identify errors | Easy to spot where issues occur |
+| **Flexibility** | Fixed output | Can adjust mid-chain |
+| **Reusability** | Limited | Individual steps are reusable |
 
 ## Additional Learnings:
 In the non-Math example provided by the course material, a simple few-shot prompt like the one below provided a one-word answer.
