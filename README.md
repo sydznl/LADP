@@ -17,7 +17,7 @@ The programme revolves around the low-code/no-code platform Flowise, with Claude
 ## Repository Structure
 Each module folder contains its own README.md, which details the summary of the module along with relevant materials.
 
-***To be updated***
+<ins>***To be updated***</ins>
 
 +	`Module_1/` — Intro workflows (first chatbot and first agent) and prompt engineering demos (zero-shot, few-shot, chain-of-thought, prompt chaining)
 +	`Module_2/` — RAG workflow demo; documents_for_rag/ contains sample source docs for ingestion
