@@ -6,7 +6,7 @@ The programme revolves around the low-code/no-code platform Flowise, with Claude
 
 ***To add table of contents***
 
-# Repository Structure
+## Repository Structure
 
 Each module folder contains its own README.md, which details the summary of the module along with relevant materials.
 
@@ -18,7 +18,7 @@ Each module folder contains its own README.md, which details the summary of the 
     +	Deployment/ — Streamlit app, static HTML embed, Docker files, Kubernetes configs, and a Cloud Run deployment guide
 +	Project/ — Phase 2 capstone project: scenario briefs, submission instructions, and a contributions_from_learners/ folder for learner submissions via Pull Request
 
-# Course setup 
+## Course setup 
 +	Install [Node.js](https://nodejs.org/en/download) v22.23.4
     + (Get-CimInstance Win32_ComputerSystem).SystemType # To identify your windows architecture.
     + node -v # Should print "v22.23.4". 
@@ -33,6 +33,6 @@ Each module folder contains its own README.md, which details the summary of the 
     + Clear
 +	[LLM API](https://console.anthropic.com/])
 
-# Other Tools
+## Other Tools
  
 ***To add image***
