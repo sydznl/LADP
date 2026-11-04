@@ -1,12 +1,12 @@
 # Module 1 – LLM Foundations & Prompt Engineering
 
-References Module 1.2:
+## References Module 1.2:
   LLM API Pricing Calculator | Compare 300+ AI Model Costs
   Hugging Face — Summary of Tokenizers
   PromptHub - The Difference Between System Messages and User Messages in Prompt Engineering 
   Agenta — Top techniques to Manage Context Lengths in LLMs
 
-Summary Module 1.2:
+## Summary Module 1.2:
   •	Tokenisation is the process whereby text is broken down into smaller units, with the common approach being Byte Pair Encoding (BPE).
   •	When working with LLMs, a few message roles come into play:
     o	User – prompts from a human.
