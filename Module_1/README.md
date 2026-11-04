@@ -22,12 +22,16 @@
 
 ## Summary Module 1.3
 + Prompt Engineering:
-    + Zero-Shot — basic instructions without examples, “figure it out yourself”.
+    + Zero-Shot — basic instructions without examples; “figure it out yourself”.
     + Few-Shot — instructions with examples.
-    + Chain-of-Thought (CoT) — thought process outputted enabling user to conduct independent verification.
-+ Prompt Chaining — <ins>***To be updated***</ins>
-+ Structured Outputs — <ins>***To be updated***</ins>
-+ JSON Validation — <ins>***To be updated***</ins>
+    + Chain-of-Thought (CoT) — thought process output, enabling the user to conduct independent verification.
++ Prompt Chaining — a multi-step interdependent process useful for complex queries.
++ Structured Outputs — JSON is a standard way to store output, ensuring reliability across systems/APIs.
++ JSON Validation:
+    + Schema — overall structure, field names, presence of values.
+    + Type — string, boolean, number, date string.
+    + Value — email format, length of mobile number, positive price.
+    + Business Logic — supply > demand, end > start.
 
 <!-- ![Prompt Chaining](/Images/M1_Prompt_Chaining.jpg "Source: AISG") -->
 
@@ -62,3 +66,13 @@ Sentiment: Negative
 Review: "It's okay, nothing special but does what it's supposed to." 
 Sentiment: Neutral
 ````
+
+In the Prompt Chaining example, an error was identified with regard to `Failure to Parse`. DeepSeek was utilised to understand the cause and the solution. The main cause of the error was `Streaming`, as quoted from DeepSeek.
+
+> Without Streaming (Batch): The AI generates the entire response in the background. Once it hits the final token, it sends the whole block of text to your app. (This is why older AI tools felt like they were "thinking" for 10 seconds before spitting out a whole paragraph).
+> 
+> With Streaming: As soon as the AI generates the first token, the server sends it to your app immediately. It keeps a connection open and sends a continuous stream of tiny text chunks.
+>     
+> You see this every time you use ChatGPT: the text types out letter-by-letter. That is streaming.
+
+In this Flowise/Claude setup, `Streaming` had to be switched off as the initial ping of `""` will be parsed as `Unexpected end of JSON input`.
