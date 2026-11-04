@@ -3,6 +3,8 @@ This is my personal documentation of AI Singapore’s LLM Application Developer 
 
 The programme revolves around the low-code/no-code platform Flowise, with Claude being the main LLM engine. An overview of the programme, taken directly from AISG-AIAP/LADP-Essentials, can be found below:
 
+<!-- ![Overview](/Images/M0_Course_Overview.jpg "Source: AISG") -->
+
 | Module | Description |
 | :--- | :--- |
 | **M1 Prompt Engineering** | How LLMs work, how to communicate with them effectively, and advanced prompting techniques (chain-of-thought, few-shot, role-based assistants). |
@@ -22,6 +24,7 @@ Each module folder contains its own README.md, which details the summary of the 
     +	Evaluations/ — notebook, CSV inputs, and .env.example
     +	Deployment/ — Streamlit app, static HTML embed, Docker files, Kubernetes configs, and a Cloud Run deployment guide
 +	`Project/` — Phase 2 capstone project: scenario briefs, submission instructions, and a `contributions_from_learners/` folder for learner submissions via Pull Request
++	`Images/` — Images used within this Repo
 
 ## Course setup 
 +	Install [Node.js](https://nodejs.org/en/download) v22.23.4
@@ -39,4 +42,11 @@ Each module folder contains its own README.md, which details the summary of the 
 +	[LLM API](https://console.anthropic.com/])
 
 ## Other Tools
-![Other Tools](/Images/M0_Other_Tools.jpg "Source: AISG")
+<!-- ![Other Tools](/Images/M0_Other_Tools.jpg "Source: AISG") -->
+
+| No-Code / Low-Code | Coding Frameworks | Coding Assistants |
+| :---: | :---: | :---: |
+| [Flowise](https://flowiseai.com/) | [LangChain](https://www.langchain.com/) | [Codex](https://openai.com/research/codex) |
+| [Langflow](https://www.langflow.org/) | [LangGraph](https://www.langchain.com/langgraph) | [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) |
+| [Dify](https://dify.ai/) | [crewAI](https://www.crewai.com/) | [GitHub Copilot](https://github.com/features/copilot) |
+| [n8n](https://n8n.io/) | [LlamaIndex](https://www.llamaindex.ai/) | |
