@@ -20,17 +20,17 @@ Each module folder contains its own README.md, which details the summary of the 
 
 ## Course setup 
 +	Install [Node.js](https://nodejs.org/en/download) v22.23.4
-    + (Get-CimInstance Win32_ComputerSystem).SystemType # To identify your windows architecture.
-    + node -v # Should print "v22.23.4". 
-    + npm -v # Should print "10.9.9".
+    + `(Get-CimInstance Win32_ComputerSystem).SystemType` # To identify your windows architecture.
+    + `node -v` # Should print "v22.23.4". 
+    + `npm -v` # Should print "10.9.9".
 + Install [Flowise](https://github.com/FlowiseAI/Flowise)
-    + npm install -g flowise@3.1.0
-    + npx flowise start # For BAU launch, port 3000 will be used by default
-    + PORT=3001 npx flowise start # Alternative when port 3000 is not available
+    + `npm install -g flowise@3.1.0`
+    + `npx flowise start` # For BAU launch, port 3000 will be used by default
+    + `PORT=3001 npx flowise start` # Alternative when port 3000 is not available
 +	Launch & End
     + [http://localhost:3000](http://localhost:3000)
-    + Ctrl + C # To disconnect
-    + Clear
+    + `Ctrl + C` # To disconnect
+    + `Clear`
 +	[LLM API](https://console.anthropic.com/])
 
 ## Other Tools
