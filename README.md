@@ -12,6 +12,8 @@ The programme revolves around the low-code/no-code platform Flowise, with Claude
 | **M3 Agentic Workflows** | Build LLM agents that use tools, make decisions, and work together — multi-agent triage, prompt chaining, structured outputs. |
 | **M4 Production Readiness** | Quality assessment & RAG evaluation, cloud deployment, and security, bias & responsible AI. |
 
+<sub>Source: AISG</sub>
+
 ## Repository Structure
 Each module folder contains its own README.md, which details the summary of the module along with relevant materials.
 
@@ -50,3 +52,5 @@ Each module folder contains its own README.md, which details the summary of the 
 | [Langflow](https://www.langflow.org/) | [LangGraph](https://www.langchain.com/langgraph) | [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) |
 | [Dify](https://dify.ai/) | [crewAI](https://www.crewai.com/) | [GitHub Copilot](https://github.com/features/copilot) |
 | [n8n](https://n8n.io/) | [LlamaIndex](https://www.llamaindex.ai/) | |
+
+<sub>Source: AISG</sub>
