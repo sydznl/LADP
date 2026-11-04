@@ -23,7 +23,7 @@ Each module folder contains its own README.md, which details the summary of the 
     + (Get-CimInstance Win32_ComputerSystem).SystemType # To identify your windows architecture.
     + node -v # Should print "v22.23.4". 
     + npm -v # Should print "10.9.9".
-•	Install [Flowise](https://github.com/FlowiseAI/Flowise)
++ Install [Flowise](https://github.com/FlowiseAI/Flowise)
     + npm install -g flowise@3.1.0
     + npx flowise start # For BAU launch, port 3000 will be used by default
     + PORT=3001 npx flowise start # Alternative when port 3000 is not available
