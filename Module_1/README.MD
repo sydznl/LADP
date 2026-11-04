@@ -26,6 +26,8 @@
 + Structured Outputs — ***To be updated***
 + JSON Validation — ***To be updated***
 
+![Prompt Chaining](/Images/M1_Prompt_Chaining.jpg "Source: AISG")
+
 ## Additional Learnings:
 In the non-Math example provided by the course material, a simple few-shot prompt like the one below provided a one-word answer.
 ````
