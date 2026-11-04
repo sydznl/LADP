@@ -17,14 +17,17 @@
     + Selective History – a fixed number (n) of texts is stored.
     + Summarisation – a full summary or a summary plus selective history.
 
+## References Module 1.3:
++ <ins>***To be updated***</ins>
+
 ## Summary Module 1.3
 + Prompt Engineering:
     + Zero-Shot — basic instructions without examples, “figure it out yourself”.
     + Few-Shot — instructions with examples.
     + Chain-of-Thought (CoT) — thought process outputted enabling user to conduct independent verification.
-+ Prompt Chaining — ***To be updated***
-+ Structured Outputs — ***To be updated***
-+ JSON Validation — ***To be updated***
++ Prompt Chaining — <ins>***To be updated***</ins>
++ Structured Outputs — <ins>***To be updated***</ins>
++ JSON Validation — <ins>***To be updated***</ins>
 
 <!-- ![Prompt Chaining](/Images/M1_Prompt_Chaining.jpg "Source: AISG") -->
 
