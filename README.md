@@ -3,7 +3,12 @@ This is my personal documentation of AI Singapore’s LLM Application Developer 
 
 The programme revolves around the low-code/no-code platform Flowise, with Claude being the main LLM engine. An overview of the programme, taken directly from AISG-AIAP/LADP-Essentials, can be found below:
 
-![Overview](/Images/M0_Course_Overview.jpg "Source: AISG")
+| Module | Description |
+| :--- | :--- |
+| **M1 Prompt Engineering** | How LLMs work, how to communicate with them effectively, and advanced prompting techniques (chain-of-thought, few-shot, role-based assistants). |
+| **M2 RAG (Retrieval Augmented Generation)** | Connect LLMs to your own data — document processing, chunking strategies, embeddings, vector databases, and similarity search. |
+| **M3 Agentic Workflows** | Build LLM agents that use tools, make decisions, and work together — multi-agent triage, prompt chaining, structured outputs. |
+| **M4 Production Readiness** | Quality assessment & RAG evaluation, cloud deployment, and security, bias & responsible AI. |
 
 ## Repository Structure
 Each module folder contains its own README.md, which details the summary of the module along with relevant materials.
