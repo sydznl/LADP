@@ -37,7 +37,7 @@ Sentiment: Negative
 Review: "It's okay, nothing special but does what it's supposed to."
 Sentiment: Neutral
 ````
-In this example, it appears that Claude is a rather chatty LLM compared to Azure OpenAI and will provide additional justification/reasoning on how it achieved the final outcome. An explicit instruction had to be included to ensure the output matches expectations.
+It appears that Claude is a rather chatty LLM compared to Azure OpenAI and will provide additional justification/reasoning on how it achieved the final outcome. An explicit instruction had to be included to ensure the output matches expectations.
 ````
 Classify the sentiment in {{ question }} as positive, negative, or neutral. Do not include any reasoning, explanation, or extra text.
 Review: "This phone is amazing! Best purchase I've made all year."
