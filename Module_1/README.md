@@ -36,6 +36,8 @@
 | **Flexibility** | Fixed output | Can adjust mid-chain |
 | **Reusability** | Limited | Individual steps are reusable |
 
+<sub>Source: AISG</sub>
+
 ## Additional Learnings:
 In the non-Math example provided by the course material, a simple few-shot prompt like the one below provided a one-word answer.
 ````
