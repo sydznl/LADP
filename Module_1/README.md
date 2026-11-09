@@ -5,13 +5,13 @@
 
 # Module 1 – LLM Foundations & Prompt Engineering
 
-## References Module 1.2:
+## References Module 1.2
 + [Helicone — LLM API Pricing](https://www.helicone.ai/llm-cost)
 + [Hugging Face — Tokenizers](https://huggingface.co/docs/transformers/tokenizer_summary)
 + [PromptHub — Prompt Engineering](https://www.prompthub.us/blog/the-difference-between-system-messages-and-user-messages-in-prompt-engineering)
 + [Agenta — Manage Context Lengths](https://agenta.ai/blog/top-6-techniques-to-manage-context-length-in-llms)
 
-## Summary Module 1.2:
+## Summary Module 1.2
 + Tokenisation is the process whereby text is broken down into smaller units, with the common approach being Byte Pair Encoding (BPE).
 + When working with LLMs, a few message roles come into play:
     + User – prompts from a human.
@@ -22,7 +22,7 @@
     + Selective History – a fixed number (n) of texts is stored.
     + Summarisation – a full summary or a summary plus selective history.
 
-## References Module 1.3:
+## References Module 1.3
 + [OpenAI — Prompt Engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
 + [Humanloop — Structured Outputs](https://humanloop.com/blog/structured-outputs)
 
@@ -51,7 +51,7 @@
 
 <sub>Source: AISG</sub>
 
-## Additional Learnings:
+## Additional Learnings
 In the non-Math example provided by the course material, a simple few-shot prompt like the one below provided a one-word answer.
 ````
 Classify the sentiment of each review as positive, negative, or neutral:
