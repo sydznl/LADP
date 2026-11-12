@@ -23,7 +23,7 @@ graph LR
     A[Documents] -->|1. Encoding| C(Embedding Model)
     B[User Query] -->|3. Encoding| C
     C -->|2. Indexing| D[(Vector Database)]
-    C -->|4. Similarity Search| D
+    C -->|4. Similarity\ Search| D
     D -->|5. Retrieval| E[User Query + Docs]
     E -->|6. Prompt| F(LLM)
     F -->|7. Generation| G[Response]
