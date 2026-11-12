@@ -1,5 +1,4 @@
-<!-- 
-[MD Tips](https://commonmark.org/help/tutorial/) 
+<!--
 <ins>***To be updated***</ins>
 -->
 
