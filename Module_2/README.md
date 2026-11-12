@@ -6,7 +6,10 @@
 # Module 2 – Retrieval Augmented Generation
 
 ## References Module 2.1
-+ [Xxx — Xxx Xxx](https://www.helicone.ai/llm-cost)
+<!--
++ [GitHub Docs — Diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
++ [Mermaid — Flowcharts Syntax](https://mermaid.js.org/syntax/flowchart.html)
+-->
 
 ## Summary Module 2.1
 + RAG - utilising LLM engine and supplmenting the knowledge base with proprietary up-to-date information.
@@ -27,8 +30,7 @@ graph LR
     F -->|7. Generation| G[Response]
 ```
 
-<sub>Source: AISG\
-[Mermaid — Flowcharts Syntax](https://mermaid.js.org/syntax/flowchart.html)</sub>
+<sub>Source: AISG</sub>
 
 | Strategy | Semantic Coherence | Complexity | Best Use Case |
 | :--- | :--- | :--- | :--- |
@@ -40,7 +42,7 @@ graph LR
 <sub>Source: AISG</sub>
 
 ## References Module 2.2
-+ [Xxx — Xxx Xxx](https://www.helicone.ai/llm-cost)
++ [xxx — xxx](https://www.helicone.ai/llm-cost)
 
 ## Summary Module 2.2
 + xxx
