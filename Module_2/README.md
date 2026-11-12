@@ -8,12 +8,16 @@
 <ins>***To be updated***</ins>
 
 ## References Module 2.1
-+ [Helicone — LLM API Pricing](https://www.helicone.ai/llm-cost)
++ [Xxx — Xxx Xxx](https://www.helicone.ai/llm-cost)
 
 ## Summary Module 2.1
-+ When working with LLMs, a few message roles come into play:
-    + User – prompts from a human.
-
++ RAG - utilising LLM engine and supplmenting the knowledge base with proprietary up-to-date information.
++ Architechture - 
++ Document processing
+    + Ingestion/Parsing - 
+	+ Chunking -
+	+ Cleaning/Preprocesing -
+	
 ```mermaid
 graph LR
     A[Documents] -->|1. Encoding| C(Embedding Model)
@@ -24,3 +28,22 @@ graph LR
     E -->|6. Prompt| F(LLM)
     F -->|7. Generation| G[Response]
 ```
+
+<sub>Source: AISG
+[Mermaid — Flowcharts Syntax](https://mermaid.js.org/syntax/flowchart.html) 
+</sub>
+	
+| Strategy | Semantic Coherence | Complexity | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| Page/Paragraph/Sentence splitting | Variable (High for paragraphs, Low for pages) | Low | Structured documents (legal, medical) |
+| Recursive chunking | High (Balances structure & size) | Medium | The Industry Standard for most RAG apps |
+| Fixed size + overlap | Low (High risk of cutting ideas) | Low | Generic text, exploratory analysis |
+| Semantic chunking | Very High | High | Nuanced, complex narratives |
+
+<sub>Source: AISG</sub>
+
+## References Module 2.2
++ [Xxx — Xxx Xxx](https://www.helicone.ai/llm-cost)
+
+## Summary Module 2.2
++ xxx
