@@ -29,9 +29,8 @@ graph LR
     F -->|7. Generation| G[Response]
 ```
 
-<sub>Source: AISG
-[Mermaid — Flowcharts Syntax](https://mermaid.js.org/syntax/flowchart.html) 
-</sub>
+<sub>Source: AISG</sub>
+<sub>[Mermaid — Flowcharts Syntax](https://mermaid.js.org/syntax/flowchart.html)</sub>
 	
 | Strategy | Semantic Coherence | Complexity | Best Use Case |
 | :--- | :--- | :--- | :--- |
