@@ -5,8 +5,6 @@
 
 # Module 2 – Retrieval Augmented Generation
 
-<ins>***To be updated***</ins>
-
 ## References Module 2.1
 + [Xxx — Xxx Xxx](https://www.helicone.ai/llm-cost)
 
